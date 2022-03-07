@@ -2,6 +2,8 @@
 
 An extension to display information about the Ukraine crypto donation wallet.
 
+[Chrome Store Extension Link](https://chrome.google.com/webstore/detail/ukraine-donation-wallet-t/colnfcbjjjlekiahehcjbjojddomjoeg)
+
 ## Acknowledgements
 
 I would like to thank Blockchair for providing real-time cryptocurrency data at no cost;

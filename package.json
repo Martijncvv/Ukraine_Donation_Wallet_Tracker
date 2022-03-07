@@ -1,6 +1,6 @@
 {
 	"name": "ukraine-donation-wallet-tracker-extension",
-	"version": "1.0.7",
+	"version": "1.0.2",
 	"description": "Extension to track ukraine's crypto donation wallet.",
 	"scripts": {
 		"start": "webpack --watch --progress --config webpack.dev.js",

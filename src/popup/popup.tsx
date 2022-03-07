@@ -16,23 +16,23 @@ import {
 import { amountFormatter } from '../utils/amountFormatter'
 
 const App: React.FC<{}> = () => {
-	const [btcReceived, setBtcReceived] = useState<any>()
-	const [btcTxCount, setBtcTxCount] = useState<any>()
-	const [lastReceivingBtcDonation, setLastReceivingBtcDonation] = useState<
-		any
-	>()
+	const [btcReceived, setBtcReceived] = useState<any>(0)
+	const [btcTxCount, setBtcTxCount] = useState<any>(0)
+	const [lastReceivingBtcDonation, setLastReceivingBtcDonation] = useState<any>(
+		0
+	)
 
-	const [ethReceived, setEthReceived] = useState<any>()
-	const [ethTxCount, setEthTxCount] = useState<any>()
-	const [lastReceivingEthDonation, setLastReceivingEthDonation] = useState<
-		any
-	>()
+	const [ethReceived, setEthReceived] = useState<any>(0)
+	const [ethTxCount, setEthTxCount] = useState<any>(0)
+	const [lastReceivingEthDonation, setLastReceivingEthDonation] = useState<any>(
+		0
+	)
 	const [totalReceived, setTotalReceived] = useState<any>(null)
 	const [totalDonations, setTotalDonations] = useState<any>(null)
 	const [lastReceived, setLastReceived] = useState<any>(null)
 
-	const [usdtReceived, setUsdtReceived] = useState<any>()
-	const [daiReceived, setDaiReceived] = useState<any>()
+	const [usdtReceived, setUsdtReceived] = useState<any>(0)
+	const [daiReceived, setDaiReceived] = useState<any>(0)
 
 	useEffect(() => {
 		getBtcWalletsData()
